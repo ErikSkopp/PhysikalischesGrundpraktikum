@@ -19,7 +19,7 @@
 *.mdl
 *.mex*
 *.fig
-*.mexmaci64
+*.mexmaci64 
 *.mexmaci
 *.mexglx
 *.mexa64
