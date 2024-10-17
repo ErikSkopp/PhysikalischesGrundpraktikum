@@ -1,0 +1,75 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.mat
+*.mlx
+*.mlappinstall
+*.mlpkginstall
+*.mltbx
+*.mexa64
+*.mexmaci64
+*.mexw64
+*.log
+*.out
+*.autosave
+
+# MATLAB generated files
+*.slxc
+*.slx
+*.mdl
+*.mex*
+*.fig
+*.mexmaci64
+*.mexmaci
+*.mexglx
+*.mexa64
+*.mexw32
+*.mexw64
+*.p
+
+# MATLAB backup files
+*~ 
+*.bak
+
+# LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.blg
+*.bbl
+*.brf
+*.idx
+*.ilg
+*.ind
+*.dvi
+*.ps
+*.eps
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.synctex(busy)
+*.tdo
+*.glo
+*.gls
+*.glsdefs
+*.ist
+*.acn
+*.acr
+*.alg
+*.glg
+
+# PDFLaTeX output
+*.pdf
+
+# Other LaTeX-related files
+*.nav
+*.snm
+*.vrb
