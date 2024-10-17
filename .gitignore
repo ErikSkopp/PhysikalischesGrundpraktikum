@@ -67,7 +67,7 @@
 *.glg
 
 # PDFLaTeX output
-*.pdf
+# *.pdf images ??
 
 # Other LaTeX-related files
 *.nav
