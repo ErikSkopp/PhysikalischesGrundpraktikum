@@ -17,7 +17,7 @@ jobs:
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@v2
       with:
-        working-directory: Messfehler_M0
+        working_directory: Messfehler_M0
         root_file: main.tex
         
 
