@@ -17,7 +17,9 @@ jobs:
     - name: Compile LaTeX document
       uses: xu-cheng/latex-action@v2
       with:
-        root_file: Messfehler_M0/main.tex
+        working-directory: Messfehler_M0
+        root_file: main.tex
+        
 
     - name: Upload PDF as artifact
       uses: actions/upload-artifact@v3
