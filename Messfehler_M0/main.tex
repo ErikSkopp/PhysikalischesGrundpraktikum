@@ -1,5 +1,6 @@
 \documentclass[fleqn,10pt]{olplainarticle}
 % Use option lineno for line numbers 
+\usepackage{url}
 
 \title{Messfehler - M0}
 
@@ -13,7 +14,6 @@
 \begin{abstract}
 In diesem Experiment messen wir die Periodendauer eines Fadenpendels, um die Erdbeschleunigung zu berechnen. Dazu machen wir 200 Messungen und werten sie statistisch aus. Wir lernen, wie man zufällige und systematische Fehler erkennt und die Ergebnisse in Histogrammen darstellt, um den wahren Wert der Periodendauer und die Standardabweichung abzuschätzen..
 \end{abstract}
-
 \begin{document}
 
 \flushbottom
@@ -36,12 +36,46 @@ Thanks for using Overleaf to write your article. Your introduction goes here! So
 \section{Kontrollfragen}
  \begin{enumerate}
      \item Was versteht man unter einer Messabweichung? In welche beiden Kategorien werden sie unterteilt?
-
+    \begin{enumerate}
+     \item \textbf{Messabweichungen} \cite{FATU} \\
+    Messabweichungen sind unvermeidbare Differenzen in einem Experiment zwischen den gemessenen und den tatsächlichen Werten. Grobe Fehler des Probanten ausgeschlossen, lassen sich Messabweichungen in zwei Kategorien unterteilen. Es ist sehr schwierig, Messfehler vollständig auszuschließen.
+        \item \textbf{Zufällige Abweichungen} \cite{FATU} \\
+        Zufällige Abweichungen sind Messabweichungen die aus einem Experiment nicht auszuschließen sind. Ihnen liegen unkontrollierte Faktoren zugrunde. Daher ist es wichtig ein Experiment nicht nur einmal sondern so oft wie möglich zu wiederholen um auf den genau möglichsten Wert zu kommmen.
+        \begin{enumerate}
+            \item Menschliche Faktoren. (Ablesefehler, Minimale Fehler bei manuellen Einstellungen)
+            \item Unpräzession der Messgeräte. (So liefern bspw alte oder oft benutzte Messgeräte hin und wieder "falsche" oder ungenaue Messwerte)
+            \item Äußere Einflüsse. (bspw wenn man "Lüftet und es geht gerade ein Windzug der das Pendel "beschleunigt" oder Aufgrund einer Baustelle nebenan der Boden wackelt)
+        \end{enumerate}
+        Bei sehr vielen Messungen kann man erkennen, dass diese um den "wahren" Messwert herum pendeln. Daher ist es recht einfach möglich auf den Wahren Wert zu schließen.
+        
+        \item \textbf{Systematische Abweichungen} \cite{FATU} \\
+            Systematische Abweichungen sind alle Messabweichungen die sich nicht auf Menschliches Versagen oder die Umwelt zurückzuführen sind. Im Gegensatz zu zufälligen Abweichungen streuen sie nicht um den wahren Wert sondern sind immer systematisch entweder "zu hoch" oder "zu niedrig"  
+            \begin{enumerate}
+                \item Längenessfehler des Pendels (es kommt zu falschen Werten)
+                \item Kalibrierfehler des Messgeräts (Die Zeit könnte zu lang oder zu kurz sein
+            \end{enumerate}
+    \end{enumerate}
      \item Wie sieht die Dichtefunktion der Normalverteilung aus? Wie sieht das zugehörige Integral aus und was kann man daraus ablesen? 
+     \begin{enumerate}
+         \item Die Dichtefunktion der Normalverteilung lautet:
+                
+                \[
+                f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp \left( - \frac{(x - \mu)^2}{2\sigma^2} \right)
+                \]
+                    \begin{itemize}
+        \item \( \mu \) \dots der Erwartungswert (Mittelwert) der Verteilung
+        \item \( \sigma \) \dots die Standardabweichung der Verteilung 
+    \end{itemize}
+     \end{enumerate}
 
      \item Was gibt die Standardabweichung an?  
+     \begin{enumerate}
+         \item asd
+     \end{enumerate}
  \end{enumerate}
 
 \section{Begriffserklärungen}
 
+
+\bibliography{sample}
 \end{document}
