@@ -68,6 +68,7 @@
 
 # PDFLaTeX output
 # *.pdf images ??
+main.pdf
 
 # Other LaTeX-related files
 *.nav
